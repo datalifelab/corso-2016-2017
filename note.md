@@ -1,4 +1,4 @@
-#Materiale di open notebook science per il corso Economia delle Scelte Pubbliche.
+# Lezioni di Open Notebook Science per il corso Economia delle Scelte Pubbliche.
 
 [riferimenti preliminari](http://retesviluppo.it/home/e-possibile-fare-open-notebook-science-a-costo-zero/)
 
