@@ -21,6 +21,7 @@
 * gli strumenti open source 
  
 # Dedicati alle attività di laboratorio:
+** è necessario un computer ogni 4 partecipanti ** 
 ## Lezione 4 - 24 Maggio
 * Introduzione a python, jupiter notebook, libreria pandas, github 
 * installazione di [anaconda python](https://www.continuum.io/downloads)
