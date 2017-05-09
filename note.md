@@ -10,28 +10,28 @@
 * i campi di applicazione ed esempi
 * il ciclo di vita di un progetto di open notebook science: input(open data) = open data
 
-## Lezione 2 - 17 Maggio
+## Lezione 2 - 16 Maggio
 ## caratteristiche dei "nuovi dati" 
 * open data 
 * social data 
 * le fonti dati disponibili e i repository
 
-## Lezione 3 - 23 Maggio
+## Lezione 3 - 17 Maggio
 ## gli strumenti a disposizone della open notebook science
 * gli strumenti open source 
  
 # Attività di laboratorio:
 ** è necessario un computer ogni 4 partecipanti ** 
-## Lezione 4 - 24 Maggio
+## Lezione 4 - 23 Maggio
 * Introduzione a python, jupiter notebook, libreria pandas, github 
 * installazione di [anaconda python](https://www.continuum.io/downloads)
 
-## Lezione 5 - 25 Maggio
+## Lezione 5 - 24 Maggio
 * introduzione ai dati Istat **Benessere equo e sostenibile (Bes)**
 * download del repository dati tramite **git/github**
 * informazioni propedeutiche sulla libreria **Pandas** per le elaborazioni sul **Bes** 
 
-## Lezione 6-7,  31 Maggio (in un unico giorno)
+## Lezione 6-7, 25 o 31 Maggio (in un unico giorno)
 * scelta del dataset **Bes** da pulire e analizzare con python
 * lavoro di gruppo
 * restituzione dei risultati per gruppo di lavoro    
