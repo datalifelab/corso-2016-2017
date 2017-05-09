@@ -4,7 +4,7 @@
 
 
 # Inquadramento teorico
-## Lezione 1 - 16 Maggio
+## Lezione 1 - 9 Maggio
 ## intoduzione alla open notebook science 
 * i vantaggi della open notebook science
 * i campi di applicazione ed esempi
@@ -31,7 +31,7 @@
 * download del repository dati tramite **git/github**
 * informazioni propedeutiche sulla libreria **Pandas** per le elaborazioni sul **Bes** 
 
-## Lezione 6-7,  30 Maggio - 31 Maggio (oppure tutti in un unico giorno)
+## Lezione 6-7,  31 Maggio (in un unico giorno)
 * scelta del dataset **Bes** da pulire e analizzare con python
 * lavoro di gruppo
 * restituzione dei risultati per gruppo di lavoro    
