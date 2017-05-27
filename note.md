@@ -29,9 +29,16 @@
 ## Lezione 5 - 24 Maggio
 * introduzione ai dati Istat **Benessere equo e sostenibile (Bes)**
 * download del repository dati tramite **git/github**
-* informazioni propedeutiche sulla libreria **Pandas** per le elaborazioni sul **Bes** 
+* informazioni propedeutiche sulla libreria **Pandas** per le elaborazioni sul **Bes** attraverso [esercizi sull'indice di "Gini"](https://github.com/scarsellifi/unifi-open-notebook-science/blob/master/Esempio%20-%20Coefficiente%20di%20Gini.ipynb) 
 
-## Lezione 6-7, 25 o 31 Maggio (in un unico giorno)
+## Lezione 31 Maggio (4 ore)
 * scelta del dataset **Bes** da pulire e analizzare con python
 * lavoro di gruppo
-* restituzione dei risultati per gruppo di lavoro    
+
+## Lezione 1 Giugno (4 ore)
+* restituzione dei risultati per gruppo di lavoro
+
+
+##Slide del corso
+[https://docs.google.com/presentation/d/10s-FET7xX17Ryj2VUZz0kIxyQBzd0UOp1ZGoYBAVI0o/](https://docs.google.com/presentation/d/10s-FET7xX17Ryj2VUZz0kIxyQBzd0UOp1ZGoYBAVI0o/)
+
