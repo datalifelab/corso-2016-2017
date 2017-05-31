@@ -44,23 +44,61 @@ def pulitura_dataset(dati, riga_intestazione_colonna):
 
     return dati
 
-def seleziona_sottotabella(dati = "dataset", riga = None):
+def seleziona_sottotabella(dati = "dataset", riga_sottotabella = None, tabella = None):
     '''
     estrai sotto tabella (es. maschi o femmine)
     :param riga:
     :return:
     '''
-    if riga == None:
+    if riga_sottotabella == None:
         return dati
     else:
-        dati = dati.loc[:riga]
+        if tabella == "maschi":
+            dati = dati.loc[:riga_sottotabella]
+        elif tabella == "femmine":
+            dati = dati.loc[riga_sottotabella + 1:]
+        else:
+            print("errore, segliere quale tabella - maschi o femmine")
         return dati
 
-def inserisci_indice(dati, indice_di_riga = 'REGIONI E \nRIPARTIZIONI\nGEOGRAFICHE'):
-    dati.set_index(indice_di_riga, inplace = True)
+def inserisci_indice(dati):
+    dati.set_index(dati.columns[0], inplace = True)
     return dati
 
 
+def restituisci_dataset(posizione_del_dataset,
+                        nome_del_foglio,
+                        riga_intestazione_colonna,
+                        riga_sottotabella=None,
+                        tabella = None,
+                        ):
+    try:
+        dati = seleziona_dataset(posizione_del_dataset, nome_del_foglio)
+    except:
+        print("errore seleziona_dataset .. ultimi dati corretti")
+        return dati
+    try:
+        dati = pulitura_dataset(dati, riga_intestazione_colonna)
+    except:
+        print("errore pulitura_dataset .. ultimi dati corretti")
+        return dati
+    try:
+        dati = seleziona_sottotabella(dati, riga_sottotabella = riga_sottotabella, tabella = tabella)
+    except:
+        print("errore seleziona_sottotabella .. ultimi dati corretti")
+        return dati
+    try:
+        dati = inserisci_indice(dati)
+    except:
+        print("errore inserisci_indice .. ultimi dati corretti")
+        return dati
+
+
+    return dati
+
+
+
+
 if __name__ == "__main__":
-    print(seleziona_dataset(os.path.join(os.getcwd(), "Appendice-statistica-2016", "11.Ricerca e innovazione", "Cap_11_Ricerca e innovazione 02.xlsx"), 'REG totale'))
+    print(restituisci_dataset(os.path.join(os.getcwd(), "Appendice-statistica-2016", "02.Istruzione", "Cap_02_Istruzione 03.xlsx"), 'REG totale', riga_intestazione_colonna = 4))
 
